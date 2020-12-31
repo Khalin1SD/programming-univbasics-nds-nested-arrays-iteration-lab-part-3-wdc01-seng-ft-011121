@@ -5,6 +5,5 @@ def join_nested_strings(src)
     items.select { |item| item.is_a?(String) }
   end.join(" ")
   
-  [sentence]
   
 end
